@@ -1,0 +1,45 @@
+.navbar-list {
+display: flex;
+list-style: none;
+margin-right: 20px;
+gap: 10px;
+font-size: 12px;
+font-weight: 400;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo{
+  width: 145px;
+  margin: 20px;
+}
+
+.active{
+  text-decoration: underline;
+}
+
+@media (min-width: 768px){
+
+  .navbar-list{
+    gap: 57px;
+    font-size: 16px;
+    margin-right: 50px;
+  }
+
+  .logo{
+    margin: 50px;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .header{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

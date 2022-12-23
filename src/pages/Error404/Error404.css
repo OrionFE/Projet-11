@@ -1,0 +1,41 @@
+.error{
+  color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.error-message{
+  text-align: center;
+  width: 300px;
+}
+
+.error-message .title{
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.error .back{
+  padding-bottom: 200px;
+text-decoration: underline;
+cursor: pointer;
+}
+
+
+@media (min-width: 768px){
+
+  .error-message{
+    width: 600px;
+  }
+
+  .error-message .title{
+    font-size: 200px;
+    font-weight: 700;
+  }
+
+  .error-message p {
+    font-size: 36px;
+  }
+}
