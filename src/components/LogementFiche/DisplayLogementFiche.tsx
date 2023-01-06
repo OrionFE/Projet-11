@@ -1,4 +1,4 @@
-import Carrousselle from "./Carousel";
+import Carousel from "./Carousel";
 import DisplayList from "./DisplayList";
 import Rating from "./Rating";
 import Tags from "./Tags";
@@ -31,7 +31,7 @@ const DisplayLogementFiche = ({ logementToShow }: Props) => {
 
   return (
     <>
-      <Carrousselle img={pictures} />
+      <Carousel img={pictures} />
       <div className="fiche-infos">
         <h3 className="fiche-title">{title}</h3>
         <p className="fiche-location">{location}</p>
