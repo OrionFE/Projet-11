@@ -4,7 +4,7 @@ interface Props {
   img: string[];
 }
 
-const Carrousselle = ({ img }: Props) => {
+const Carousel = ({ img }: Props) => {
   const [currentImg, setCurrentImg] = useState(0);
 
   const nextImg = () => {
@@ -45,4 +45,4 @@ const Carrousselle = ({ img }: Props) => {
   );
 };
 
-export default Carrousselle;
+export default Carousel;
