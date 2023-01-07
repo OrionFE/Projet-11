@@ -11,8 +11,6 @@ const Fiche = () => {
   const logementFilterById = logementData.filter((loge) => loge.id === id)[0];
 
   useEffect(() => {
-    console.log(logementFilterById);
-
     if (logementFilterById) {
     } else {
       navigate("/404");
@@ -24,7 +22,7 @@ const Fiche = () => {
       {logementFilterById && (
         <DisplayLogementFiche logementToShow={logementFilterById} />
       )}
-    </div>
+    </div>⁄
   );
 };
 
