@@ -22,7 +22,7 @@ const Fiche = () => {
       {logementFilterById && (
         <DisplayLogementFiche logementToShow={logementFilterById} />
       )}
-    </div>⁄
+    </div>
   );
 };
 
