@@ -27,6 +27,7 @@ const Carousel = ({ img }: Props) => {
   return (
     <div className="container-carousel">
       <img src={img[currentImg]} alt="" />
+      <p className="index-img">{currentImg + 1}/{img.length}</p>
       {img.length === 1 ? (
         <></>
       ) : (
